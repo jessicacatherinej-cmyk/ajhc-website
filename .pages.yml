@@ -1,4 +1,3 @@
-
 media:
   input: assets
   output: /assets
@@ -40,3 +39,42 @@ content:
       - name: body
         label: Article
         type: rich-text
+
+  - name: homepage
+    label: Homepage & About
+    type: file
+    path: content/pages/home.json
+    format: json
+    operations:
+      delete: false
+    fields:
+      - name: hero_eyebrow
+        label: Homepage — small heading
+        type: string
+      - name: hero_title_line_1
+        label: Homepage — title, line 1
+        type: string
+      - name: hero_title_line_2
+        label: Homepage — title, line 2
+        type: string
+      - name: hero_tagline
+        label: Homepage — tagline
+        type: string
+      - name: hero_link_text
+        label: Homepage — link text
+        type: string
+      - name: about_eyebrow
+        label: About — small heading
+        type: string
+      - name: about_heading
+        label: About — main heading
+        type: string
+      - name: about_paragraph_1
+        label: About — paragraph 1
+        type: text
+      - name: about_paragraph_2
+        label: About — paragraph 2
+        type: text
+      - name: about_paragraph_3
+        label: About — paragraph 3
+        type: text
