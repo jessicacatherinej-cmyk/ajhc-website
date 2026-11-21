@@ -1,0 +1,494 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap');
+:root{--ink:#24251f;--paper:#f2eee5;--clay:#a75d42;--olive:#555b3d;--ochre:#c18b42;--muted:#77756b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:'DM Sans',sans-serif}a{color:inherit;text-decoration:none}.site-header{height:94px;padding:14px 4vw;display:flex;align-items:center;justify-content:space-between;background:var(--paper);position:relative;z-index:5}.brand img{width:175px;height:66px;object-fit:contain}.main-nav{display:flex;gap:clamp(12px,2vw,30px);align-items:center}.main-nav a{font-size:11px;text-transform:uppercase;letter-spacing:.09em}.main-nav a:hover,.text-link:hover{color:var(--clay)}.menu-toggle{display:none}.hero{height:min(790px,83vh);min-height:590px;position:relative;overflow:hidden;background:#60533d;color:white}.hero-video{position:absolute;width:100%;height:100%;object-fit:cover;inset:0}.hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(17,20,16,.55),rgba(17,20,16,.08) 75%),linear-gradient(0deg,rgba(17,20,16,.35),transparent 35%)}.hero-content{position:absolute;left:9vw;top:50%;transform:translateY(-42%);max-width:800px}.eyebrow{font-size:10px;letter-spacing:.2em;text-transform:uppercase;font-weight:700;color:var(--clay);margin:0 0 24px}.hero .eyebrow{color:#e7d5b7}.hero h1{font:clamp(48px,7vw,100px)/.98 'Playfair Display',serif;font-weight:400;margin:0 0 25px}.hero-tagline{font-size:13px;letter-spacing:.23em;text-transform:uppercase}.text-link{display:inline-block;margin-top:32px;border-bottom:1px solid currentColor;padding-bottom:9px;font-size:12px;letter-spacing:.08em;text-transform:uppercase}.hero-bottom{position:absolute;bottom:28px;left:4vw;right:4vw;display:flex;justify-content:space-between;font-size:9px;letter-spacing:.16em}.section{padding:115px 10vw}.intro{display:grid;grid-template-columns:1fr 1.2fr;gap:5vw}.intro .eyebrow{grid-column:1/-1;margin-bottom:-35px}.intro h2,.section h2{font:clamp(38px,5vw,68px)/1.08 'Playfair Display',serif;font-weight:400;margin:0}.intro-copy{font-size:15px;line-height:1.9;color:#5e5b52}.section-heading{max-width:760px;margin-bottom:65px}.section-heading>p:last-child,.section-lede{font-size:16px;line-height:1.8;max-width:620px;color:#666258;margin-top:25px}.topic-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.topic{min-height:270px;padding:25px;display:flex;flex-direction:column;justify-content:space-between;background:#b9a58a;color:#fff;transition:transform .3s}.topic:hover{transform:translateY(-5px)}.topic span{font-size:9px;letter-spacing:.16em}.topic h3{font:32px/1.05 'Playfair Display',serif;font-weight:400;margin:0}.topic-earth{background:#98634b}.topic-olive{background:#62664a}.topic-ochre{background:#b4874b}.topic-stone{background:#918a79}.topic-dark{background:#30342c}.map-teaser{margin-top:14px;padding:55px;background:#ded6c6;display:flex;justify-content:space-between;align-items:center}.map-teaser h3{font:42px/1.05 'Playfair Display',serif;font-weight:400;margin:0}.map-teaser p:last-child{max-width:440px;line-height:1.7;color:#615d53}.map-mark{font-size:100px;color:var(--clay)}.journal{background:#d9d1c2}.split-heading{display:grid;grid-template-columns:1.2fr 1fr;gap:8vw;align-items:end}.split-heading>p,.split-heading>div{font-size:15px;line-height:1.9;color:#5d5a51}.journal-categories{display:flex;flex-wrap:wrap;gap:12px;margin-top:55px}.journal-categories span{border:1px solid #9c9689;padding:14px 18px;font-size:11px;letter-spacing:.05em}.watch{background:#30352c;color:#f4eee3}.watch .eyebrow{color:#d4a96c}.watch .section-lede{color:#d4d0c5}.watch-panel{margin-top:45px;min-height:330px;background:linear-gradient(120deg,#4e503f,#92754d);display:flex;flex-direction:column;justify-content:center;align-items:center;gap:20px;color:white;font-size:10px;letter-spacing:.18em}.play-symbol{border:1px solid white;border-radius:50%;width:64px;height:64px;display:grid;place-items:center;padding-left:4px}.share{background:#b16a4d;color:white}.share .eyebrow{color:#f0d7bd}.share .split-heading>div{color:#fff}.programmes{background:#eee8dc}.programme-list{margin-top:55px;border-top:1px solid #c9c1b4}.programme-list article{display:grid;grid-template-columns:70px 1fr;gap:20px;padding:26px 0;border-bottom:1px solid #c9c1b4}.programme-list article>span{font-size:11px;color:var(--clay)}.programme-list h3{font:25px 'Playfair Display',serif;font-weight:400;margin:0 0 8px}.programme-list p{margin:0;color:#6c685e;line-height:1.7}.publications{
+  background:
+    linear-gradient(115deg, rgba(248,238,211,.88), rgba(232,205,151,.82)),
+    url('assets/aged-gold-paper.jpg') center 48% / cover no-repeat;
+  background-blend-mode:normal,soft-light;
+}.publications>p:not(.eyebrow){max-width:650px;line-height:1.8;color:#5e594f}.publication-note{margin-top:45px;padding:24px 0;border-top:1px solid #b6aa98;border-bottom:1px solid #b6aa98;font-size:12px;letter-spacing:.12em;display:flex;justify-content:space-between}.publication-note span{letter-spacing:0;color:#686257}.store{background:#555b3d;color:#f4eee3}.store .eyebrow{color:#d7b779}.store>p:not(.eyebrow){max-width:620px;line-height:1.8;color:#e1dfd3}.coming-soon{font-size:10px;letter-spacing:.16em;margin-top:45px}.newsletter{background:#e4d9c8}.newsletter>p:not(.eyebrow){max-width:560px;line-height:1.8;color:#615d53}.newsletter-link{display:inline-block;margin-top:20px;padding:16px 22px;background:var(--ink);color:white;font-size:11px;letter-spacing:.1em;text-transform:uppercase}.contact{background:#a65f45;color:white}.contact .eyebrow{color:#f1d7b8}.contact>p:not(.eyebrow){max-width:600px;line-height:1.8}.contact-email{display:inline-block;margin-top:22px;font-size:clamp(18px,3vw,30px);border-bottom:1px solid rgba(255,255,255,.6);padding-bottom:8px}.site-footer{background:#24271f;color:#f2eee5;padding:65px 10vw 25px;display:grid;grid-template-columns:1fr 1fr;gap:35px}.site-footer h2{font:32px 'Playfair Display',serif;font-weight:400;margin:0}.site-footer p{font-size:12px;color:#c6bdad}.footer-links{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;font-size:11px;text-transform:uppercase;letter-spacing:.1em}.copyright{grid-column:1/-1;border-top:1px solid #55574e;padding-top:22px;margin-top:25px;font-size:10px!important}
+@media(max-width:850px){.site-header{height:78px}.brand img{width:145px}.menu-toggle{display:block;background:none;border:1px solid #aaa;padding:10px 13px;text-transform:uppercase;font-size:10px}.main-nav{display:none;position:absolute;top:78px;left:0;right:0;background:var(--paper);padding:22px 6vw;flex-direction:column;align-items:flex-start}.main-nav.open{display:flex}.hero{min-height:570px;height:78vh}.hero-content{left:7vw;right:7vw}.section{padding:78px 7vw}.intro{display:block}.intro-copy{margin-top:35px}.topic-grid{grid-template-columns:repeat(2,1fr)}.topic{min-height:220px}.split-heading{grid-template-columns:1fr;gap:20px}.map-teaser{padding:30px}.map-mark{font-size:65px}.site-footer{padding:55px 7vw 22px}}
+@media(max-width:520px){.hero h1{font-size:48px}.hero{min-height:540px}.topic-grid{grid-template-columns:1fr 1fr;gap:8px}.topic{min-height:175px;padding:16px}.topic h3{font-size:23px}.map-teaser{display:block}.map-mark{display:block;text-align:right}.publication-note{display:block;line-height:2}.publication-note span{display:block}.site-footer{grid-template-columns:1fr}.footer-links{margin-top:15px}.copyright{grid-column:auto}.hero-bottom{font-size:8px}}
+
+/* AJHC visual refinement — larger identity and more balanced section proportions */
+@media (min-width: 851px){
+  .site-header{height:118px;padding:12px 5vw}
+  .brand img{width:255px;height:96px}
+  .intro{padding:88px 8.5vw 82px;grid-template-columns:1.08fr .92fr;column-gap:7vw;row-gap:22px}
+  .intro .eyebrow{margin-bottom:0}
+  .intro h2,.section h2{font-size:clamp(48px,4.5vw,76px);line-height:1.02}
+  .intro-copy{font-size:16px;line-height:1.78}
+  .intro-copy p{margin:0 0 18px}
+  .section-heading h2,.split-heading h2{font-size:clamp(50px,5vw,78px);line-height:1.02}
+}
+@media (min-width:521px) and (max-width:850px){
+  .site-header{height:100px}
+  .brand img{width:215px;height:82px}
+  .intro{padding-top:75px;padding-bottom:75px}
+  .intro h2,.section h2{font-size:clamp(46px,6vw,64px);line-height:1.04}
+}
+@media (max-width:520px){
+  .site-header{height:86px;padding:8px 5vw}
+  .brand img{width:185px;height:70px}
+  .intro h2,.section h2{font-size:clamp(40px,10vw,52px);line-height:1.04}
+  .intro{padding-top:65px;padding-bottom:65px}
+}
+
+/* Refinements requested: stronger brand mark, larger editorial headings, clean hero footer */
+.site-header{height:132px;padding:16px 4.5vw}
+.brand img{width:280px;height:100px;object-fit:contain}
+.main-nav{gap:clamp(14px,2vw,32px)}
+.main-nav a{font-size:13px;letter-spacing:.10em}
+.hero h1{font-size:clamp(64px,8vw,138px);line-height:.96;max-width:1050px}
+.hero-content{left:8.5vw;top:49%;max-width:1100px}
+.hero .eyebrow{font-size:12px;letter-spacing:.22em;margin-bottom:30px}
+.hero-tagline{font-size:15px;letter-spacing:.24em;margin-top:28px}
+.text-link{margin-top:46px;padding-bottom:11px;font-size:13px}
+.hero-bottom{bottom:24px}
+.hero-bottom span:first-child{display:none}
+.intro{padding-top:92px;padding-bottom:92px;grid-template-columns:1fr 1.15fr;column-gap:6vw;row-gap:22px}
+.intro .eyebrow{margin-bottom:0}
+.intro h2,.section h2{font-size:clamp(48px,6vw,86px);line-height:1.02}
+.intro-copy{font-size:17px;line-height:1.85}
+.section-heading h2{font-size:clamp(54px,6.2vw,90px)}
+.topic h3{font-size:36px}
+.map-teaser h3{font-size:50px}
+@media(max-width:850px){
+ .site-header{height:104px;padding:10px 5vw}
+ .brand img{width:205px;height:82px}
+ .main-nav a{font-size:12px}
+ .hero h1{font-size:clamp(52px,10vw,82px)}
+ .hero-content{top:48%}
+ .intro{padding-top:72px;padding-bottom:72px}
+ .intro h2,.section h2{font-size:clamp(42px,8vw,64px)}
+}
+@media(max-width:520px){
+ .site-header{height:88px}
+ .brand img{width:170px;height:70px}
+ .hero h1{font-size:clamp(43px,11vw,58px)}
+ .hero-content{top:47%}
+ .hero .eyebrow{font-size:9px}
+ .hero-tagline{font-size:11px}
+ .text-link{margin-top:30px}
+ .intro{padding-top:60px;padding-bottom:60px}
+ .intro h2,.section h2{font-size:42px}
+ .intro-copy{font-size:15px}
+}
+
+/* Homepage-only header refinement: larger AJHC mark and navigation */
+.site-header{
+  height:164px;
+  padding:18px 4.5vw;
+}
+.brand img{
+  width:360px;
+  height:126px;
+  object-fit:contain;
+}
+.main-nav{
+  gap:clamp(18px,2.15vw,38px);
+}
+.main-nav a{
+  font-size:16px;
+  letter-spacing:.105em;
+  font-weight:500;
+}
+@media(max-width:1100px){
+  .site-header{height:140px;padding:14px 4vw}
+  .brand img{width:290px;height:105px}
+  .main-nav{gap:16px}
+  .main-nav a{font-size:13px}
+}
+@media(max-width:850px){
+  .site-header{height:112px;padding:10px 5vw}
+  .brand img{width:230px;height:88px}
+  .main-nav a{font-size:12px}
+}
+@media(max-width:520px){
+  .site-header{height:92px}
+  .brand img{width:190px;height:74px}
+}
+
+/* Final logo prominence adjustment: use tightly-cropped official artwork */
+.site-header{
+  height:210px;
+  padding:14px 4.5vw;
+}
+.brand img{
+  width:440px;
+  height:182px;
+  object-fit:contain;
+}
+.main-nav{align-self:center}
+@media(max-width:1100px){
+  .site-header{height:170px}
+  .brand img{width:350px;height:145px}
+}
+@media(max-width:850px){
+  .site-header{height:130px}
+  .brand img{width:275px;height:112px}
+}
+@media(max-width:520px){
+  .site-header{height:105px}
+  .brand img{width:220px;height:90px}
+}
+
+/* Page 2: preserve the approved warm textured editorial welcome */
+.intro.section{
+  position:relative;isolation:isolate;overflow:hidden;
+  padding:88px 8.5vw 100px;
+  grid-template-columns:0.92fr 1.08fr;
+  column-gap:7vw;row-gap:28px;background-color:#f2eee5;
+}
+.intro.section::before{
+  content:"";position:absolute;inset:0;z-index:-1;
+  background-image:linear-gradient(rgba(242,238,229,.84),rgba(242,238,229,.84)),url("assets/aged-gold-paper.jpg");
+  background-size:cover;background-position:center 48%;opacity:.62;pointer-events:none;
+}
+.intro.section .eyebrow{grid-column:1/-1;margin:0 0 4px;font-size:16px;letter-spacing:.20em;line-height:1.4;color:#a64f32}
+.intro.section h2{font-size:clamp(42px,4.1vw,66px);line-height:1.04;max-width:650px}
+.intro.section .intro-copy{font-size:19px;line-height:1.8;color:#575247;max-width:760px}
+.intro.section .intro-copy p{margin:0 0 20px}
+@media(max-width:850px){
+ .intro.section{padding:70px 7vw;grid-template-columns:1fr;gap:24px}
+ .intro.section .eyebrow{font-size:14px}
+ .intro.section h2{font-size:clamp(42px,7vw,60px)}
+ .intro.section .intro-copy{font-size:17px}
+}
+@media(max-width:520px){
+ .intro.section{padding:58px 6vw}
+ .intro.section .eyebrow{font-size:12px}
+ .intro.section h2{font-size:40px}
+ .intro.section .intro-copy{font-size:16px}
+}
+/* Page 3: selected personal and reference photography */
+#explore .section-heading>.eyebrow{
+  font-size:16px;
+  letter-spacing:.22em;
+  margin-bottom:26px;
+}
+.topic-photo{
+  position:relative;
+  isolation:isolate;
+  overflow:hidden;
+  background:#484337;
+  background-image:linear-gradient(180deg,rgba(18,18,15,.12) 0%,rgba(18,18,15,.08) 35%,rgba(18,18,15,.72) 100%),var(--topic-image);
+  background-size:cover;
+  background-position:center;
+  min-height:340px;
+  padding:28px;
+}
+.topic-photo::after{
+  content:"";
+  position:absolute;inset:0;z-index:-1;
+  background:rgba(20,19,15,.04);
+  transition:background .3s ease;
+}
+.topic-photo:hover::after{background:rgba(20,19,15,.16)}
+.topic-photo span,.topic-photo h3{position:relative;z-index:1;text-shadow:0 1px 12px rgba(0,0,0,.35)}
+.topic-photo span{font-size:10px;letter-spacing:.18em}
+.topic-photo h3{font-size:clamp(29px,2.35vw,38px);line-height:1.02}
+@media(max-width:850px){.topic-photo{min-height:260px}}
+@media(max-width:520px){.topic-photo{min-height:210px;padding:17px}.topic-photo h3{font-size:23px}}
+
+/* Page 4 — AJHC Journal: editorial magazine layout */
+.journal.section{background:#e9e1d4;padding:100px 8.5vw 110px;color:#25241f}
+.journal-topline{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(49,44,35,.24);padding-bottom:18px;margin-bottom:46px}
+.journal-topline .eyebrow{margin:0;color:#a64f32;font-size:14px;letter-spacing:.22em}
+.journal-index{font-size:10px;letter-spacing:.16em;color:#696253}
+.journal-intro{display:grid;grid-template-columns:1.12fr .88fr;gap:7vw;align-items:end;margin-bottom:58px}
+.journal-intro h2{font-family:inherit;font-size:clamp(56px,6.2vw,94px);font-weight:400;line-height:.98;letter-spacing:-.045em;margin:0;max-width:850px}
+.journal-intro h2 em{font-weight:400;color:#9b6249}
+.journal-intro-copy{max-width:560px;padding-bottom:8px}
+.journal-kicker{font-size:11px!important;letter-spacing:.2em;color:#a64f32;margin:0 0 18px!important}
+.journal-intro-copy p:not(.journal-kicker){font-size:18px;line-height:1.75;color:#514c42;margin:0 0 14px}
+.journal-feature-grid{display:grid;grid-template-columns:1.45fr 1fr;grid-template-rows:270px 270px;gap:14px}
+.journal-feature{position:relative;overflow:hidden;isolation:isolate;background:#625b4c;min-height:240px}
+.journal-feature-main{grid-row:1 / span 2}
+.journal-feature img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .7s ease;z-index:-2}
+.journal-feature:hover img{transform:scale(1.035)}
+.journal-feature-shade{position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(16,15,12,.04) 15%,rgba(16,15,12,.72) 100%)}
+.journal-feature-copy{position:absolute;left:34px;right:34px;bottom:32px;color:#fff}
+.journal-feature-copy span{font-size:10px;letter-spacing:.18em;display:block;margin-bottom:14px}
+.journal-feature-copy h3{font-size:clamp(28px,3vw,48px);font-weight:400;line-height:1.02;margin:0 0 12px}
+.journal-feature-side .journal-feature-copy h3{font-size:clamp(24px,2.3vw,34px)}
+.journal-feature-copy p{font-size:15px;line-height:1.6;max-width:470px;margin:0;color:rgba(255,255,255,.88)}
+.journal-bottom{padding-top:34px}.journal-bottom>p{font-size:10px;letter-spacing:.18em;color:#736b5d;margin:0 0 18px}
+.journal-categories{display:flex;flex-wrap:wrap;gap:10px}.journal-categories span{border:1px solid rgba(52,47,38,.28);border-radius:30px;padding:10px 16px;color:#514b40;font-size:11px;letter-spacing:.06em}
+@media(max-width:850px){.journal.section{padding:74px 7vw 82px}.journal-intro{grid-template-columns:1fr;gap:26px;margin-bottom:38px}.journal-feature-grid{grid-template-columns:1fr 1fr;grid-template-rows:360px 230px}.journal-feature-main{grid-column:1/-1;grid-row:auto}}
+@media(max-width:520px){.journal.section{padding:58px 6vw 64px}.journal-topline{align-items:flex-start;gap:12px}.journal-index{font-size:8px;text-align:right}.journal-intro h2{font-size:49px}.journal-intro-copy p:not(.journal-kicker){font-size:16px}.journal-feature-grid{display:flex;flex-direction:column}.journal-feature{height:270px;min-height:270px}.journal-feature-main{height:360px;min-height:360px}.journal-feature-copy{left:22px;right:22px;bottom:22px}.journal-feature-copy h3{font-size:32px}}
+
+/* Journal refinements: align display type with the first three pages */
+.journal-intro h2{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(54px,5.4vw,82px);
+  font-weight:400;
+  line-height:1.02;
+  letter-spacing:-.035em;
+}
+.journal-quote{
+  margin:0;
+  padding:0;
+  border:0;
+}
+.journal-quote p{
+  font-family:'Playfair Display',serif;
+  font-size:clamp(21px,2vw,29px)!important;
+  line-height:1.48!important;
+  color:#39352e!important;
+  margin:0 0 20px!important;
+}
+.journal-quote cite{
+  display:block;
+  font-size:12px;
+  line-height:1.5;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  color:#9b6249;
+  font-style:normal;
+}
+.journal-feature-main img{object-position:center 28%}
+.journal-feature-side:nth-child(2) img{object-position:center 48%}
+.journal-feature-side:nth-child(3) img{object-position:center 28%}
+
+
+/* African Jewish Heritage Map — first-stage editorial map landing section */
+.map-teaser{display:flex;cursor:pointer;transition:background .25s ease,transform .25s ease}
+.map-teaser:hover{background:#d5cbb8;transform:translateY(-2px)}
+.map-teaser:focus-visible{outline:2px solid var(--clay);outline-offset:4px}
+.heritage-map-section{background:#e8e0d2;position:relative;isolation:isolate;overflow:hidden}
+.heritage-map-section::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(rgba(232,224,210,.88),rgba(232,224,210,.88)),url("assets/aged-gold-paper.jpg") center/cover;opacity:.72}
+.map-section-heading{max-width:850px;margin:0 auto 58px}
+.map-section-heading h2{font-size:clamp(52px,6.2vw,88px);line-height:1.02}
+.map-intro{font-size:18px;line-height:1.8;max-width:620px;color:#625e54;margin-top:24px}
+.map-preview-panel{display:grid;grid-template-columns:1fr 1fr;gap:7vw;padding:clamp(30px,5vw,72px);background:#d7cbb7;border:1px solid rgba(93,79,58,.18);min-height:340px;align-items:center}
+.map-preview-copy h3{font:clamp(34px,4vw,54px)/1.08 'Playfair Display',serif;font-weight:400;margin:22px 0}
+.map-preview-copy p,.map-region p{font-size:15px;line-height:1.8;color:#625d52;max-width:510px}
+.map-quote{margin:22px 0 0;padding:0 0 0 20px;border-left:2px solid #a96a4e;max-width:650px}
+.map-quote p{font:clamp(17px,1.55vw,21px)/1.65 'Playfair Display',serif;color:#39352d;margin:0}
+.map-quote cite{display:block;margin-top:14px;font-size:11px;line-height:1.5;letter-spacing:.08em;text-transform:uppercase;font-style:normal;color:#8d5b43}
+.map-overline{font-size:10px;letter-spacing:.18em;color:var(--clay);font-weight:700}
+.map-regions{border-top:1px solid #b8aa95}
+.map-region{display:grid;grid-template-columns:48px 1fr;gap:15px;padding:24px 0;border-bottom:1px solid #b8aa95}
+.map-region>span{font-size:11px;letter-spacing:.1em;color:var(--clay);padding-top:5px}
+.map-region h4{font:28px 'Playfair Display',serif;font-weight:400;margin:0}
+.map-region p{margin:7px 0 0;font-size:13px}
+.map-note{font-size:12px;line-height:1.7;color:#777064;max-width:760px;margin:24px 0 0}
+@media(max-width:850px){.map-preview-panel{grid-template-columns:1fr;gap:28px}.map-section-heading{margin-bottom:38px}}
+@media(max-width:520px){.map-preview-panel{padding:25px}.map-intro{font-size:15px}.map-region h4{font-size:24px}}
+
+/* Clearly visible, softly printed African-continent watermark */
+.heritage-map-section::after{
+  content:"";position:absolute;z-index:0;pointer-events:none;
+  width:min(76vw,980px);height:min(92vw,1120px);
+  right:-1vw;top:0;opacity:.15;
+  background:url("assets/africa-watermark.svg") center/contain no-repeat;
+}
+.heritage-map-section .map-section-heading,.heritage-map-section .map-preview-panel{position:relative;z-index:1}
+.map-preview-panel{background:rgba(215,203,183,.84)}
+.map-section-heading h2 em{font-style:italic;color:#98634b}
+@media(max-width:850px){.heritage-map-section::after{width:105vw;height:125vw;right:-28vw;top:9%;opacity:.12}}
+.map-subregion-title{font:clamp(20px,2vw,25px)/1.2 'Playfair Display',serif;font-weight:400;margin:18px 0 0;color:#292820}
+.map-subregion-title em{color:#98634b;font-style:italic}
+
+
+/* Share Your Story — archival portrait emerging through soft mist */
+.share.section{
+  position:relative;
+  overflow:hidden;
+  isolation:isolate;
+  background:#30352c;
+  color:#f4eee3;
+  padding:clamp(82px,9vw,138px) 8.5vw;
+}
+.share.section::before{
+  content:"";
+  position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:
+    radial-gradient(ellipse at 76% 52%,rgba(205,190,159,.13),transparent 42%),
+    linear-gradient(105deg,#30352c 0%,#30352c 44%,#35392f 100%);
+}
+.share-story-layout{
+  display:grid;
+  grid-template-columns:minmax(0,.92fr) minmax(340px,1.08fr);
+  align-items:center;
+  gap:clamp(38px,7vw,112px);
+  max-width:1500px;
+  margin:0 auto;
+}
+.share-story-copy{position:relative;z-index:2;max-width:620px}
+.share-story-copy .eyebrow{
+  color:#d4a96c;
+  font-size:12px;
+  letter-spacing:.22em;
+  margin:0 0 28px;
+}
+.share-story-copy h2{
+  color:#f4eee3;
+  font-family:'Playfair Display',serif;
+  font-size:clamp(58px,7.1vw,108px);
+  font-weight:400;
+  line-height:.98;
+  letter-spacing:-.035em;
+  margin:0 0 30px;
+}
+.share-story-lede{
+  color:#ded8ca;
+  font-size:17px;
+  line-height:1.85;
+  max-width:540px;
+  margin:0 0 30px;
+}
+.share-story-copy .text-link{
+  color:#f4eee3;
+  border-bottom-color:rgba(244,238,227,.55);
+  display:inline-flex;
+  gap:12px;
+  align-items:center;
+}
+.share-story-portrait{
+  position:relative;
+  min-height:clamp(420px,48vw,650px);
+  overflow:hidden;
+  isolation:isolate;
+  opacity:0;
+  transform:translate3d(76px,18px,0);
+  filter:blur(9px);
+  transition:opacity 1.5s ease,transform 1.7s cubic-bezier(.2,.7,.2,1),filter 1.7s ease;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.16) 10%,#000 35%,#000 100%);
+  mask-image:linear-gradient(90deg,transparent 0%,rgba(0,0,0,.16) 10%,#000 35%,#000 100%);
+}
+.share-story-portrait.is-visible{
+  opacity:1;
+  transform:translate3d(0,0,0);
+  filter:blur(0);
+}
+.share-story-portrait img{
+  position:absolute;inset:0;
+  width:100%;height:100%;
+  object-fit:cover;
+  object-position:center 30%;
+  filter:grayscale(1) contrast(1.04);
+  opacity:.92;
+  mix-blend-mode:screen;
+}
+.share-story-portrait::before,
+.share-story-portrait::after,
+.portrait-mist{
+  content:"";
+  position:absolute;inset:-8%;
+  pointer-events:none;
+}
+.share-story-portrait::before{
+  z-index:1;
+  background:
+    radial-gradient(ellipse at 48% 48%,transparent 25%,rgba(48,53,44,.10) 52%,#30352c 82%),
+    linear-gradient(90deg,#30352c 0%,rgba(48,53,44,.18) 28%,transparent 62%,rgba(48,53,44,.22) 100%);
+}
+.share-story-portrait::after{
+  z-index:2;
+  background:
+    radial-gradient(ellipse at 12% 25%,rgba(225,218,199,.22),transparent 38%),
+    radial-gradient(ellipse at 72% 12%,rgba(225,218,199,.16),transparent 34%),
+    radial-gradient(ellipse at 52% 88%,rgba(225,218,199,.14),transparent 40%);
+  filter:blur(24px);
+  animation:portrait-mist-drift 12s ease-in-out infinite alternate;
+}
+.portrait-mist{
+  z-index:3;
+  background:linear-gradient(90deg,#30352c 0%,transparent 25%,transparent 76%,#30352c 100%);
+}
+@keyframes portrait-mist-drift{
+  from{transform:translate3d(-2%,1%,0) scale(1);opacity:.65}
+  to{transform:translate3d(2%,-1%,0) scale(1.05);opacity:1}
+}
+@media(max-width:850px){
+  .share.section{padding:78px 7vw 88px}
+  .share-story-layout{grid-template-columns:1fr;gap:24px}
+  .share-story-copy{max-width:680px}
+  .share-story-portrait{min-height:480px;width:100%;max-width:680px;margin:0 auto}
+}
+@media(max-width:520px){
+  .share.section{padding:64px 6vw 70px}
+  .share-story-copy h2{font-size:54px}
+  .share-story-lede{font-size:15px}
+  .share-story-portrait{min-height:390px}
+}
+@media(prefers-reduced-motion:reduce){
+  .share-story-portrait,.share-story-portrait.is-visible{transition:none;transform:none;filter:none}
+  .share-story-portrait::after{animation:none}
+}
+
+/* Watch & Listen: wide landscape video */
+.watch-panel{
+  width:100%;
+  min-height:0;
+  padding:24px 5.4vw 54px;
+  background:#20271f;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.watch-video{
+  display:block;
+  width:100%;
+  max-width:1320px;
+  height:auto;
+  aspect-ratio:16/9;
+  object-fit:contain;
+  background:#111;
+}
+@media(max-width:700px){
+  .watch-panel{padding:12px 16px 32px}
+  .watch-video{width:100%;aspect-ratio:16/9}
+}
+
+/* Publications — brighter antique-gold editorial paper */
+.publications{position:relative;isolation:isolate}
+.publications .eyebrow{color:#a94f31}
+.publications h2{color:#25241f}
+.publications>p:not(.eyebrow){color:#514a3e}
+.publication-note{border-color:rgba(111,83,47,.34)}
+.publication-note span{color:#5c5141}
+
+/* Publications — scripture quotation in place of repeated introductory copy */
+.publication-quote{margin:26px 0 0;max-width:900px;border:0;padding:0}
+.publication-quote p{margin:0 0 12px;font-family:inherit;font-size:clamp(22px,2.3vw,34px);line-height:1.35;color:#30291f}
+.publication-quote cite{font-style:normal;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#9c4f32}
+
+/* Exodus quotation — match the site's Playfair Display heading typeface */
+.publication-quote p{
+  font-family:"Playfair Display", Georgia, serif;
+  font-weight:400;
+  letter-spacing:-0.025em;
+}
+.publication-quote cite{
+  font-family:"DM Sans", Arial, sans-serif;
+}
+
+/* AJHC Store — bold editorial / heritage-inspired treatment */
+.store{padding:clamp(70px,9vw,130px) 7vw;background:#d9c7a8;color:#25352b;overflow:hidden}
+.store-editorial{display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:5vw;max-width:1500px;margin:0 auto}
+.store-copy{position:relative;z-index:2;padding:3vw 0}
+.store .eyebrow{color:#9e4f32;margin-bottom:28px}
+.store-overline{font-size:10px;letter-spacing:.2em;color:#6b644f;margin:0 0 18px}
+.store h2{font:clamp(48px,6vw,88px)/.98 "Playfair Display",Georgia,serif;font-weight:400;letter-spacing:-.035em;margin:0 0 30px;color:#25352b}
+.store h2 em{color:#a45f42;font-weight:400}
+.store-description{font-size:clamp(17px,1.6vw,22px);line-height:1.55;max-width:420px;color:#373a30;margin:0}
+.store .coming-soon{display:inline-block;margin-top:38px;padding:13px 16px;border:1px solid rgba(37,53,43,.45);font-size:9px;letter-spacing:.16em;color:#394538}
+.store-artwork{position:relative;display:flex;align-items:center;justify-content:center;min-height:680px;overflow:hidden;background:#d9c7a8}
+.store-portrait-art{display:block;width:auto;height:680px;max-width:100%;min-height:0;object-fit:contain;object-position:center;filter:saturate(.9)}
+.store-handprint{position:absolute;width:23%;height:auto;right:-3%;top:7%;mix-blend-mode:multiply;transform:rotate(8deg);opacity:.88;border:8px solid #e9dcc3}
+.store-art-caption{position:relative;margin:18px 0 0 auto;padding:0 2px 0 0;color:#394538;font-size:12px;line-height:1.5;letter-spacing:.2em;text-align:right;font-weight:600}
+@media(max-width:850px){
+ .store-editorial{grid-template-columns:1fr;gap:35px}
+ .store-copy{padding:0}
+ .store-artwork{min-height:560px}
+ .store-portrait-art{height:560px;min-height:0}
+ .store-handprint{width:20%;right:2%}
+}
+@media(max-width:520px){
+ .store{padding:70px 7vw}
+ .store-artwork{min-height:500px}
+ .store-portrait-art{height:500px;min-height:0}
+ .store-handprint{width:24%;border-width:5px}
+}
