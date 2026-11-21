@@ -78,13 +78,6 @@ content:
       - name: about_paragraph_3
         label: About — paragraph 3
         type: text
-
-  - name: explore
-    label: Explore Section
-    type: file
-    path: content/pages/home.json
-    format: json
-    fields:
       - name: explore_eyebrow
         label: Explore — small heading
         type: string
