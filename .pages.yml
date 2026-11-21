@@ -78,3 +78,76 @@ content:
       - name: about_paragraph_3
         label: About — paragraph 3
         type: text
+
+  - name: explore
+    label: Explore Section
+    type: file
+    path: content/pages/home.json
+    format: json
+    fields:
+      - name: explore_eyebrow
+        label: Explore — small heading
+        type: string
+      - name: explore_title_line_1
+        label: Explore — title, line 1
+        type: string
+      - name: explore_title_line_2
+        label: Explore — title, line 2
+        type: string
+      - name: explore_intro
+        label: Explore — introduction
+        type: text
+      - name: explore_topic_1_label
+        label: Explore — topic 1 label
+        type: string
+      - name: explore_topic_1_line_1
+        label: Explore — topic 1 title, line 1
+        type: string
+      - name: explore_topic_1_line_2
+        label: Explore — topic 1 title, line 2
+        type: string
+      - name: explore_topic_2_label
+        label: Explore — topic 2 label
+        type: string
+      - name: explore_topic_2_line_1
+        label: Explore — topic 2 title, line 1
+        type: string
+      - name: explore_topic_2_line_2
+        label: Explore — topic 2 title, line 2
+        type: string
+      - name: explore_topic_3_label
+        label: Explore — topic 3 label
+        type: string
+      - name: explore_topic_3_line_1
+        label: Explore — topic 3 title, line 1
+        type: string
+      - name: explore_topic_3_line_2
+        label: Explore — topic 3 title, line 2
+        type: string
+      - name: explore_topic_4_label
+        label: Explore — topic 4 label
+        type: string
+      - name: explore_topic_4_line_1
+        label: Explore — topic 4 title, line 1
+        type: string
+      - name: explore_topic_4_line_2
+        label: Explore — topic 4 title, line 2
+        type: string
+      - name: explore_topic_5_label
+        label: Explore — topic 5 label
+        type: string
+      - name: explore_topic_5_line_1
+        label: Explore — topic 5 title, line 1
+        type: string
+      - name: explore_topic_5_line_2
+        label: Explore — topic 5 title, line 2
+        type: string
+      - name: explore_topic_6_label
+        label: Explore — topic 6 label
+        type: string
+      - name: explore_topic_6_line_1
+        label: Explore — topic 6 title, line 1
+        type: string
+      - name: explore_topic_6_line_2
+        label: Explore — topic 6 title, line 2
+        type: string
