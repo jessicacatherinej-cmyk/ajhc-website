@@ -1,0 +1,42 @@
+
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: articles
+    label: Journal Articles
+    type: collection
+    path: content/articles
+    filename: "{primary}.md"
+    view:
+      primary: title
+      fields:
+        - title
+        - author
+        - date
+        - category
+    fields:
+      - name: title
+        label: Article title
+        type: string
+        required: true
+      - name: author
+        label: Author
+        type: string
+        required: true
+      - name: date
+        label: Publication date
+        type: date
+      - name: category
+        label: Category
+        type: string
+      - name: cover_image
+        label: Cover image
+        type: image
+      - name: excerpt
+        label: Short introduction
+        type: text
+      - name: body
+        label: Article
+        type: rich-text
