@@ -18,3 +18,23 @@ if(storyPortrait){
     storyPortrait.classList.add('is-visible');
   }
 }
+
+
+// Load editable homepage and About copy. If the content file is unavailable,
+// the original HTML copy remains visible as a safe fallback.
+fetch('content/pages/home.json')
+  .then(response => {
+    if (!response.ok) throw new Error('Homepage content could not be loaded');
+    return response.json();
+  })
+  .then(content => {
+    document.querySelectorAll('[data-cms]').forEach(element => {
+      const key = element.dataset.cms;
+      if (typeof content[key] === 'string') {
+        element.textContent = content[key];
+      }
+    });
+  })
+  .catch(error => {
+    console.warn('Using the built-in homepage text:', error);
+  });
