@@ -144,3 +144,36 @@ content:
       - name: explore_topic_6_line_2
         label: Explore — topic 6 title, line 2
         type: string
+      - name: map_eyebrow
+        label: Map — small heading
+        type: string
+      - name: map_heading
+        label: Map — main heading
+        type: string
+      - name: map_panel_heading
+        label: Map — panel heading
+        type: string
+      - name: map_quote
+        label: Map — historical quotation
+        type: text
+      - name: map_quote_attribution
+        label: Map — quotation attribution
+        type: string
+      - name: map_region_1_title
+        label: Map — region 1 title
+        type: string
+      - name: map_region_1_description
+        label: Map — region 1 description
+        type: string
+      - name: map_region_2_title
+        label: Map — region 2 title
+        type: string
+      - name: map_region_2_description
+        label: Map — region 2 description
+        type: string
+      - name: map_region_3_title
+        label: Map — region 3 title
+        type: string
+      - name: map_region_3_description
+        label: Map — region 3 description
+        type: string
