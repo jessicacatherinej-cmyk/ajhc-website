@@ -222,3 +222,18 @@ content:
       - name: journal_feature_3_title_line_2
         label: Journal — feature 3 title, line 2
         type: string
+      - name: watch_eyebrow
+        label: Watch & Listen — small heading
+        type: string
+      - name: watch_heading
+        label: Watch & Listen — main heading
+        type: string
+      - name: watch_intro
+        label: Watch & Listen — introduction
+        type: text
+      - name: watch_panel_heading
+        label: Watch & Listen — panel heading
+        type: string
+      - name: watch_panel_message
+        label: Watch & Listen — panel message
+        type: text
