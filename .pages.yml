@@ -177,3 +177,48 @@ content:
       - name: map_region_3_description
         label: Map — region 3 description
         type: string
+      - name: journal_eyebrow
+        label: Journal — small heading
+        type: string
+      - name: journal_index
+        label: Journal — section index
+        type: string
+      - name: journal_title_line_1
+        label: Journal — main title, line 1
+        type: string
+      - name: journal_title_line_2
+        label: Journal — main title, line 2
+        type: string
+      - name: journal_kicker
+        label: Journal — quotation heading
+        type: string
+      - name: journal_quote_attribution
+        label: Journal — quotation attribution
+        type: string
+      - name: journal_feature_1_label
+        label: Journal — feature 1 label
+        type: string
+      - name: journal_feature_1_title_line_1
+        label: Journal — feature 1 title, line 1
+        type: string
+      - name: journal_feature_1_title_line_2
+        label: Journal — feature 1 title, line 2
+        type: string
+      - name: journal_feature_2_label
+        label: Journal — feature 2 label
+        type: string
+      - name: journal_feature_2_title_line_1
+        label: Journal — feature 2 title, line 1
+        type: string
+      - name: journal_feature_2_title_line_2
+        label: Journal — feature 2 title, line 2
+        type: string
+      - name: journal_feature_3_label
+        label: Journal — feature 3 label
+        type: string
+      - name: journal_feature_3_title_line_1
+        label: Journal — feature 3 title, line 1
+        type: string
+      - name: journal_feature_3_title_line_2
+        label: Journal — feature 3 title, line 2
+        type: string
