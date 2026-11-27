@@ -303,3 +303,24 @@ content:
       - name: publications_note_description
         label: Publications — zines description
         type: string
+      - name: store_eyebrow
+        label: Store — small heading
+        type: string
+      - name: store_overline
+        label: Store — overline
+        type: string
+      - name: store_title_line_1
+        label: Store — main title, line 1
+        type: string
+      - name: store_title_line_2
+        label: Store — main title, line 2
+        type: string
+      - name: store_description
+        label: Store — description
+        type: text
+      - name: store_status
+        label: Store — status message
+        type: string
+      - name: store_art_caption
+        label: Store — artwork caption
+        type: string
