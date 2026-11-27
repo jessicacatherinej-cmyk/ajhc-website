@@ -237,3 +237,18 @@ content:
       - name: watch_panel_message
         label: Watch & Listen — panel message
         type: text
+      - name: share_eyebrow
+        label: Share Your Story — small heading
+        type: string
+      - name: share_title_line_1
+        label: Share Your Story — title, line 1
+        type: string
+      - name: share_title_line_2
+        label: Share Your Story — title, line 2
+        type: string
+      - name: share_intro
+        label: Share Your Story — introduction
+        type: text
+      - name: share_link_text
+        label: Share Your Story — link text
+        type: string
