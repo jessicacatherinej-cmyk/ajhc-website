@@ -285,3 +285,21 @@ content:
       - name: programme_4_description
         label: Programme 4 — description
         type: text
+      - name: publications_eyebrow
+        label: Publications — small heading
+        type: string
+      - name: publications_heading
+        label: Publications — main heading
+        type: string
+      - name: publications_quote
+        label: Publications — quotation
+        type: text
+      - name: publications_quote_attribution
+        label: Publications — quotation attribution
+        type: string
+      - name: publications_note_heading
+        label: Publications — zines heading
+        type: string
+      - name: publications_note_description
+        label: Publications — zines description
+        type: string
