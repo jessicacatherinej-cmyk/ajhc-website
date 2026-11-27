@@ -351,3 +351,54 @@ content:
       - name: contact_email
         label: Contact — email address
         type: string
+      - name: nav_about
+        label: Navigation — About
+        type: string
+      - name: nav_explore
+        label: Navigation — Explore
+        type: string
+      - name: nav_journal
+        label: Navigation — Journal
+        type: string
+      - name: nav_watch
+        label: Navigation — Watch & Listen
+        type: string
+      - name: nav_programmes
+        label: Navigation — Programmes
+        type: string
+      - name: nav_publications
+        label: Navigation — Publications
+        type: string
+      - name: nav_contact
+        label: Navigation — Contact
+        type: string
+      - name: footer_name_line_1
+        label: Footer — organisation name, line 1
+        type: string
+      - name: footer_name_line_2
+        label: Footer — organisation name, line 2
+        type: string
+      - name: footer_tagline
+        label: Footer — tagline
+        type: string
+      - name: footer_nav_about
+        label: Footer navigation — About
+        type: string
+      - name: footer_nav_explore
+        label: Footer navigation — Explore
+        type: string
+      - name: footer_nav_journal
+        label: Footer navigation — Journal
+        type: string
+      - name: footer_nav_programmes
+        label: Footer navigation — Programmes
+        type: string
+      - name: footer_nav_publications
+        label: Footer navigation — Publications
+        type: string
+      - name: footer_nav_contact
+        label: Footer navigation — Contact
+        type: string
+      - name: footer_copyright
+        label: Footer — copyright notice
+        type: string
