@@ -252,3 +252,36 @@ content:
       - name: share_link_text
         label: Share Your Story — link text
         type: string
+      - name: programmes_eyebrow
+        label: Programmes — small heading
+        type: string
+      - name: programmes_heading
+        label: Programmes — main heading
+        type: string
+      - name: programmes_intro
+        label: Programmes — introduction
+        type: text
+      - name: programme_1_title
+        label: Programme 1 — title
+        type: string
+      - name: programme_1_description
+        label: Programme 1 — description
+        type: text
+      - name: programme_2_title
+        label: Programme 2 — title
+        type: string
+      - name: programme_2_description
+        label: Programme 2 — description
+        type: text
+      - name: programme_3_title
+        label: Programme 3 — title
+        type: string
+      - name: programme_3_description
+        label: Programme 3 — description
+        type: text
+      - name: programme_4_title
+        label: Programme 4 — title
+        type: string
+      - name: programme_4_description
+        label: Programme 4 — description
+        type: text
