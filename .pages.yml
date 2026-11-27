@@ -324,3 +324,18 @@ content:
       - name: store_art_caption
         label: Store — artwork caption
         type: string
+      - name: newsletter_eyebrow
+        label: Newsletter — small heading
+        type: string
+      - name: newsletter_title_line_1
+        label: Newsletter — title, line 1
+        type: string
+      - name: newsletter_title_line_2
+        label: Newsletter — title, line 2
+        type: string
+      - name: newsletter_description
+        label: Newsletter — description
+        type: text
+      - name: newsletter_link_text
+        label: Newsletter — sign-up link text
+        type: string
