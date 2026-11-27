@@ -339,3 +339,15 @@ content:
       - name: newsletter_link_text
         label: Newsletter — sign-up link text
         type: string
+      - name: contact_eyebrow
+        label: Contact — small heading
+        type: string
+      - name: contact_heading
+        label: Contact — main heading
+        type: string
+      - name: contact_description
+        label: Contact — introduction
+        type: text
+      - name: contact_email
+        label: Contact — email address
+        type: string
