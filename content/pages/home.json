@@ -98,5 +98,22 @@
   "contact_eyebrow": "Let's start a conversation",
   "contact_heading": "Get in touch. TWS ",
   "contact_description": "Have a question, a story to share, an idea for collaboration or an interest in supporting the African Jewish Heritage Centre? We'd love to hear from you.",
-  "contact_email": "info@africanjewishheritagecentre.com"
+  "contact_email": "info@africanjewishheritagecentre.com",
+  "nav_about": "About",
+  "nav_explore": "Explore",
+  "nav_journal": "Journal",
+  "nav_watch": "Watch & Listen",
+  "nav_programmes": "Programmes",
+  "nav_publications": "Publications",
+  "nav_contact": "Contact",
+  "footer_name_line_1": "The African Jewish",
+  "footer_name_line_2": "Heritage Centre",
+  "footer_tagline": "Remember. Reclaim. Restore.",
+  "footer_nav_about": "About",
+  "footer_nav_explore": "Explore",
+  "footer_nav_journal": "Journal",
+  "footer_nav_programmes": "Programmes",
+  "footer_nav_publications": "Publications",
+  "footer_nav_contact": "Contact",
+  "footer_copyright": "© 2026 African Jewish Heritage Centre. All rights reserved."
 }
